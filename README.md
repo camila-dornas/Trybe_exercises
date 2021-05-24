@@ -29,7 +29,7 @@
 
 :white_check_mark: 3-5: _[Projeto - HTML & CSS](https://github.com/tryber/sd-013-b-project-lessons-learned/pull/136)_
 
-##### Bloco 4: IntroduÃ§Ã£o - JavaScript
+##### Bloco 4: Introdução - JavaScript
 
 :white_check_mark: 4-1: _JavaScript - Primeiros passos_
 
