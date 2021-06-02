@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+
+#container {
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    /* background-color: rgb(216, 216, 216); */
+}
+
+#header-container {
+    /* Definido no js */
+}
+
+.emergency-tasks {
+    display: inline-block;
+    height: 400px;
+    margin: 56px 0;
+    width: 400px;
+    background-color: rgb(238, 152, 77);
+}
+
+.emergency-tasks div {
+    height: 198px;
+    /* background-color: rgb(238, 152, 77); */
+}
+
+.emergency-tasks h3 {
+    /* Definido no js */
+}
+
+.no-emergency-tasks {
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(226, 128, 157);
+}
+
+.no-emergency-tasks div {
+    height: 198px;
+    /* background-color: rgb(134, 32, 63); */
+}
+
+.no-emergency-tasks h3 {
+    /* Feito no js */
+}
+
+#footer-container {
+    /* Feito no js */
+}
