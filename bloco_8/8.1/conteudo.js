@@ -1,45 +1,89 @@
-const emailListInData = [
-    'roberta@email.com',
-    'paulo@email.com',
-    'anaroberta@email.com',
-    'fabiano@email.com',
-  ];
+// FIRST-CLASS FUNCTIONS //
+// ------> Atrbuir funções à variàveis <------ //
+const sum = (a, b) => a + b;
+// ------> Passar funções como argumento para outras funções <------ //
+const sayHello = () => {
+    console.log('hello trybers');
+  }
   
-  const showEmailList = (email) => {
-    console.log(`O email ${email} esta cadastrado em nosso banco de dados!`);
+  setTimeout(sayHello, 1000);
+  // ------> Retornar uma função de outra função <------ //
+  const sumFixAmount = (amount) => {
+    return (number) => amount + number;
+  }
+
+  // HIGHER ORDER FUNCTIONS //
+const button = document.querySelector('#signup-button');
+
+const registerUser = () => {
+  console.log('Registrado com sucesso!');
+};
+
+button.addEventListener('click', registerUser);
+
+ // ESTRUTURANDO UMA HIGHER ORDER FUNCTIONS //
+ const repeat = (number, action) => {
+    for (let count = 0; count <= number; count += 1) {
+      action(count);
+    }
   };
-
-emailListInData.forEach(showEmailList); // iprime a frase do console a cima, acrescentando os e-mails.
-console.log(emailListInData); //o array com os emails
-
-// ////
-const numbers = [19, 21, 30, 3, 45, 22, 15];
-
-const findDivisibleBy3And5 = (number) => number % 3 === 0 && number % 5 === 0;
-const isDivisible = numbers.find(findDivisibleBy3And5);console.log(isDivisible); // retorna o 1º nº do array que é divisível por 3 e 5 ao mesmo tempo.
-
-console.log(findDivisibleBy3And5(30));// retorna bolean
-
-// ////
-const names = ['João', 'Irene', 'Fernando', 'Maria'];
-
-const findNameWithFiveLetters = (name) => name.length === 5;
-const nome = names.find(findNameWithFiveLetters);
-console.log(nome); // retorna o 1º nome do array que possui 5 letras.
-
-console.log(findNameWithFiveLetters('Maria')); // retorna bolean.
-
-// ////
-const musicas = [
-    { id: '31031685', title: 'Partita in C moll BWV 997' },
-    { id: '31031686', title: 'Toccata and Fugue, BWV 565' },
-    { id: '31031687', title: 'Chaconne, Partita No. 2 BWV 1004' },
-  ]
   
-const findMusic = (id) => id === '31031685';
-const music = musicas.find(findMusic)
-console.log(music);
+  repeat(5, console.log);
+
+// --> Verificar numeros pares <-- //
+  const repeat = (number, action) => {
+    for (let count = 0; count <= number; count += 1) {
+      action(count);
+    }
+  };
   
-  console.log(findMusic('31031685'))
+  repeat(3, (number) => {
+    if (number % 2 === 0) {
+      console.log(number, 'is even');
+    }
+  });
 
 
+// --> Verificar numeros pares e ímpares <-- //
+  const repeat = (number, action) => {
+    for (let count = 0; count <= number; count += 1) {
+      action(count);
+    }
+  };
+  
+  const isEven = (number) => {
+    if (number % 2 === 0) {
+      console.log(number, 'is even');
+    }
+  };
+  
+  const isOdd = (number) => {
+    if ((number % 2) > 0) {
+      console.log(number, 'is odd');
+    }
+  };
+  
+  repeat(3, isEven); // Testa quais números serão pares;
+  repeat(3, isOdd); // Testa quais números serão ímpares;
+
+// --> FIXANDO O CONTEÚDO <-- //
+
+const string1 = 'Acordando!!';
+const string2 = 'Bora toar café!!';
+const string3 = 'Partiu dormir!!';
+
+const acordando = (string1) => {
+  console.log(string1);
+}
+
+const cafe = (string2) => {
+  console.log(string2);
+}
+
+const dormir = (string3) => {
+  console.log(string3);
+}
+
+const doingThings = (acordando) => acordando(string1);
+
+console.log(doingThings(acordando));
