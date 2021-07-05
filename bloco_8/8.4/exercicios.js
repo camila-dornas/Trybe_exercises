@@ -123,16 +123,30 @@ const names = [
   'Abegildo', 'Adicellia', 'Aladonata',
   'Abeladerco', 'Adieidy', 'Alarucha',
 ];
-// function containsA() {
-//     return names.reduce((acc, curr) =>
-//        acc + curr.split('').reduce((acumulator, current) => {
-//           if (current === 'a' || current === 'A') return acumulator + 1;
-//           return acumulator;
-//        }, 0), 0);
-//   }
 
-const containsA = () => names.reduce((acc, curr) => acc + curr.split(""), 0).reduce((acc2, curr2) => (curr2 === 'a' || curr2 === 'A') ? acc + 1 : acc2, 0);
+const containsA = () => names.reduce((acc, curr) => acc + curr.split("").reduce((acc2, curr2) => (curr2 === 'a' || curr2 === 'A') ? acc2 + 1 : acc2, 0), 0);
 
 console.log(containsA());
 
-// assert.deepStrictEqual(containsA(), 20);
+assert.deepStrictEqual(containsA(), 20);
+console.log("........................");
+
+// 6.Agora vamos criar um novo array de objetos a partir das informações abaixo, onde cada objeto terá o formato { name: nome do aluno, average: media das notas }. Para isso vamos assumir que a posição 0 de notas refere-se ao aluno na posição 0 de alunos , aqui além de reduce será necessário utilizar também a função map . Dica: Você pode acessar o index do array dentro de map , e você pode ver o objeto esperado na constante expected.
+
+const students = ['Pedro Henrique', 'Miguel', 'Maria Clara'];
+const notes = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
+
+const studentAverage = () => students.map((student, index) => ({name: student, average: notes[index].reduce((acc, curr) => acc + curr) / notes[index].length}));
+
+// Foi transformado através do map um novo array de objetos, contendo o nome do estudante e todas as notas referentes a ele,
+// Dentro da 2º chave de cada objeto do novo array de objetos, foi feito um reduce das notas, retornando a média entre elas.
+
+console.log(studentAverage());
+
+const expected6 = [
+  { name: 'Pedro Henrique', average: 7.8 },
+  { name: 'Miguel', average: 9.2 },
+  { name: 'Maria Clara', average: 8.8 },
+];
+
+assert.deepStrictEqual(studentAverage(), expected6);
