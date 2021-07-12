@@ -58,36 +58,53 @@
 ##### Bloco 6: HTML & CSS avanÃ§ado
 
 :white_check_mark: 6-1: _HTML & CSS - Forms_
+
 :white_check_mark: 6-2: _Bibliotecas JavaScript e Frameworks CSS_
+
 :white_check_mark: 6-3: _CSS Flexbox - Part 1_
+
 :white_check_mark: 6-4: _CSS Flexbox - Part 2_
+
 :white_check_mark: 6-5: _CSS Responsivo - Mobile First_
+
 :white_check_mark: 6-6: _[Projeto - Trybewarts](https://github.com/tryber/sd-013-b-project-trybewarts/pull/134)_
 
 ##### Bloco 7: JavaScript ES6 & Testes UnitÃ¡rios
 
 :white_check_mark: 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+
 :white_check_mark: 7-2: _JavaScript ES6 - Objects_
+
 :white_check_mark: 7-3: _Testes unitÃ¡rios em JavaScript_
+
 :white_check_mark: 7-4: _[Projeto - JavaScript Testes UnitÃ¡rios](https://github.com/tryber/sd-013-b-project-js-unit-tests/pull/125)_
 
 ##### Bloco 8: JavaScript ES6
 
 :white_check_mark: 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+
 :white_check_mark: 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
+
 :white_check_mark: 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+
 :white_check_mark: 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
+
 :white_check_mark: 8-5: _[Projeto - Zoo functions](https://github.com/tryber/sd-013-b-project-zoo-functions/pull/130)_
 
 ##### Bloco 9: Assincronicidade & Callbacks
 
 :white_check_mark: 9-1: _JavaScript AssÃ­ncrono e Callbacks_
+
 :white_check_mark: 9-2: _JavaScript Promises_
+
 :hourglass_flowing_sand: 9-3: _[Projeto - Carrinho de Compras]()_
 
 ##### Bloco 10: Jest
 
 :hourglass_flowing_sand: 10-1: _Primeiros passos no Jest_
+
 :hourglass_flowing_sand: 10-2: _Jest - Testes AssÃ­ncronos_
+
 :hourglass_flowing_sand: 10-3: _Jest - Simulando comportamentos_
+
 :hourglass_flowing_sand: 10-4: _[Projeto - Jest AssÃ­ncrono e Mocking]()_
