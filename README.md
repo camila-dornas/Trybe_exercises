@@ -1,4 +1,4 @@
-# Trybe_exercises
+# Trybe_exercises - Módulo: Fundamentos e Desenvolvimento Web
 ##### Repositório criado para alocar os exercícios confeccionados no cruso da [Trybe](https://www.betrybe.com/), por [Camila Luiza Dornas de Oliveira](https://www.linkedin.com/in/camiladornas/).
 
 ## Fundamentos doDesenvolvimento Web :white_check_mark:
