@@ -85,7 +85,7 @@ const printErrorMessage = (error) => console.log(`Error getting country: ${error
 
 const getCountry = (onSuccess, onError) => {
   setTimeout(() => {
-    const didOperationSucceed = Math.random() >= 0.5;
+    const didOperationSucceed = Math.random() >=0.5;
     if(didOperationSucceed) {
       const country = {
         name: "Brazil",
