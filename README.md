@@ -97,14 +97,14 @@
 
 :white_check_mark: 9-2: _JavaScript Promises_
 
-:hourglass_flowing_sand: 9-3: _[Projeto - Carrinho de Compras]()_
+:white_check_mark: 9-3: _[Projeto - Carrinho de Compras](https://github.com/tryber/sd-013-b-project-shopping-cart/pull/126)_
 
 ##### Bloco 10: Jest
 
-:hourglass_flowing_sand: 10-1: _Primeiros passos no Jest_
+:white_check_mark: 10-1: _Primeiros passos no Jest_
 
-:hourglass_flowing_sand: 10-2: _Jest - Testes AssÃ­ncronos_
+:white_check_mark: 10-2: _Jest - Testes AssÃ­ncronos_
 
-:hourglass_flowing_sand: 10-3: _Jest - Simulando comportamentos_
+:white_check_mark: 10-3: _Jest - Simulando comportamentos_
 
 :hourglass_flowing_sand: 10-4: _[Projeto - Jest AssÃ­ncrono e Mocking]()_
