@@ -107,4 +107,4 @@
 
 :white_check_mark: 10-3: _Jest - Simulando comportamentos_
 
-:hourglass_flowing_sand: 10-4: _[Projeto - Jest AssÃ­ncrono e Mocking]()_
+:white_check_mark: 10-4: _[Projeto - Jest AssÃ­ncrono e Mocking](https://github.com/tryber/sd-013-b-project-jest/pull/114)_
