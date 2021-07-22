@@ -1,0 +1,67 @@
+
+#div1{
+    color:white;
+    background-color: #F6BD60;
+    text-align: center;
+
+ }
+h2, h3{
+ color: #F28482;
+ font-size: 2em;
+ }
+ body{
+    background-color: #F7EDE2;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+ }
+ p{
+    color: #84A59D;
+    font-weight: bold;
+ }
+ .JS {
+ font-size: 20px;
+ color: #84A59D;
+ font-weight: bold;
+ text-decoration: underline;
+    }
+ .BI {
+font-size: 19px;
+color: #84A59D;
+font-weight: bold;
+ }
+ .HT{
+ font-size: 18px;
+ color: #84A59D;
+ font-weight: bold;
+ }
+ .UB {
+   font-size: 17px;
+   color: #84A59D;
+   font-weight: bold;
+  }
+  #foto{
+     float:left;
+     height: 280px;
+     padding:10px;
+     background-color: #F6BD60;
+  }
+  #divcont{
+     height: 300px;
+     position: relative;
+  }
+  #descricao{
+     position: absolute;
+     top: 5%;
+     left: 50%;
+  }
+
+
+
+
+
+
+
+
+  div{
+   border: 2px solid red;
+}
